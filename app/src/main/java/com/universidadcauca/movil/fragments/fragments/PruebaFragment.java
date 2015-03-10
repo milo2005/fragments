@@ -9,16 +9,13 @@ import android.view.ViewGroup;
 
 import com.universidadcauca.movil.fragments.R;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ListaFragment extends Fragment {
+public class PruebaFragment extends Fragment {
 
 
-    String hola;
-
-    public ListaFragment() {
+    public PruebaFragment() {
         // Required empty public constructor
     }
 
@@ -27,7 +24,7 @@ public class ListaFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_lista, container, false);
+        return inflater.inflate(R.layout.fragment_prueba, container, false);
     }
 
 
